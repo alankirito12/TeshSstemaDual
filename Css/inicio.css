@@ -1,0 +1,53 @@
+h1#titulo{
+	/*inicio*/
+	background: ca628a;
+	color: #ffa500;	
+	font-size: 80px;
+	font-family: "Elephant";
+}
+
+
+.slider{
+
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+   padding: 0;
+   width: 100%;
+   animation: cambio 20s infinite;
+   animation-direction: alternate;
+}
+.slider li{
+	width: 100%; 
+	list-style: none;
+}
+
+}
+@keyframes cambio {
+	5% {margin-left: 5;}
+	20%  {margin-left: 5;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+}
+h1#acerca{
+	background:#ffa500;
+	color: #ffa500;
+	font-size: 60px;
+	font-family: "Elephant";
+}
+
+p{
+	color: #ffa500;
+	font-size: 40px;
+	font-family: "Elephant";
+}
+body{
+    background-image: "https://formulariopruebas.000webhostapp.com/Img/EMPRESA.JPEG";
+    background-size: 100%;
+   
+
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+.boton {
+    width: 600px;
+    height: 60px;
+    border-radius: 15em;
+    cursor: pointer;
+    background-color: #43a047;
+    transition: background-color 1s;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.6em;
+}
+.boton p {
+    text-align: center;
+}
+.boton:hover {
+    background-color: #5DADE2;
+    transition: background-color 1s;
+}
+.t {
+    text-align: center;
+    line-height: 1.9em;
+    color: #fff;
+}
+body{
+    background-image: "/DUALSISTEM/img/Tesh.jpeg";
+    background-size: 100%;
+    background-position: left;
+
+}

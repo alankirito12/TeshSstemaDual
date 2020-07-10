@@ -1,0 +1,87 @@
+*{
+	margin: 10;
+	padding: 20;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+img{
+	margin: auto;
+	width: 10%;
+	height: 10%;
+}
+header{
+	height:0px;
+	background:#DBA901;
+	color: #DBA901;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+#btn-menu{
+	display: none;
+}
+header label{
+	font-size: 100px;
+	cursor: pointer;
+	display: none;
+}
+.menu ul{
+	background: #04B4AE;
+	display: flex;
+	list-style: none;
+}
+.menu ul ul{
+	background: #04B4AE;
+	display: flex;
+	list-style: none;
+}
+a{
+	display: block;
+	padding: 20px;
+	color: #333;
+	text-decoration:all;
+
+}
+.menu a:hover{
+	background: rgba(0,0,0,0.3);
+
+}
+.menu a span{http://localhost/SISTEMADUAL/paginaprincipal.php#
+	margin-left: 10px;
+}
+.menu ul li:hover ul{
+	display: block;
+	position: absolute; 
+
+}
+@media(max-width:768px){
+	header label{
+		display: block;
+	}
+	.menu{
+		position: absolute;
+		top: 20px;
+		left: 20;
+		width: 100%;
+		transform: translateX(-100%);
+
+		transition: all 0s;
+	}
+	.menu ul{
+		display: block;
+		color: #DBA901;
+	}
+	.menu ul li:hover ul{
+		display: none;
+
+	}
+	.menu a span{
+		position: absolute;
+		right: 10px;
+	}
+	#btn-menu:checked ~ .menu{
+		transform: translateX(0%);
+	}
+	}
+
+}
