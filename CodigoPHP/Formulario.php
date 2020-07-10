@@ -9,7 +9,7 @@ if($_POST){
   <div class="underline">
   </div>
   <div class="icon_wrapper">
-    <link rel="stylesheet" href="https://formulariopruebas.000webhostapp.com/Css/estilosform.css">
+    <link rel="stylesheet" href="CodigoPHP/Css/estilosform.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montez|Pathway+Gothic+One" rel="stylesheet">
   </div>
   <form action="Formulario.php" method="post" id="contact_form"enctype="multipart/form-data">
